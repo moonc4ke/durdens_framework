@@ -1,5 +1,5 @@
 {
-  "name": "Durdens/framework",
+  "name": "durdens/framework",
   "license": "MIT",
   "autoload": {
     "psr-4": {
