@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    color: white;
+    padding-top: 3.8rem;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.bg-dark {
+    background-color: #151515!important;
+}
+
+.index .content h2::first-letter {
+    text-transform: uppercase;
+}
+
+form label {
+    width: 350px;
+    display: block;
+    margin: 8px;
+}
+
+form span {
+    display: block;
+}
+
+form input {
+    width: 250px;
+}
+
+.error {
+    color: red;
+}
+
+.user-list img {
+    width: 200px;
+}

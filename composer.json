@@ -1,0 +1,14 @@
+{
+  "name": "Durdens/framework",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/classes",
+      "Core\\": "core/classes"
+    }
+  },
+  "require": {
+    "ext-pdo": "*",
+    "ext-json": "*"
+  }
+}
