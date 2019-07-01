@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\database\abstracts;
+namespace Core\Database\abstracts;
 
 /**
  * Description of SQLBuilder

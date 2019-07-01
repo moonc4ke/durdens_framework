@@ -1,8 +1,8 @@
 <?php
 
-namespace Core\database\abstracts;
+namespace Core\Database\abstracts;
 
-use Core\database\SQLBuilder;
+use Core\Database\SQLBuilder;
 use Exception;
 use PDO;
 
@@ -54,7 +54,7 @@ abstract class Model
     const FLAG_AUTO_INCREMENT = 'AUTO_INCREMENT';
     const FLAG_NOT_NULL = 'NOT NULL';
 
-    public function __construct(\Core\database\Connection $conn, $table_name, $fields)
+    public function __construct(\Core\Database\Connection $conn, $table_name, $fields)
     {
         $this->table_name = $table_name;
         $this->pdo = $conn->getPDO();

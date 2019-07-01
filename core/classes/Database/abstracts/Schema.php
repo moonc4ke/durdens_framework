@@ -1,8 +1,8 @@
 <?php
 
-namespace Core\database\abstracts;
+namespace Core\Database\abstracts;
 
-use Core\database\SQLBuilder;
+use Core\Database\SQLBuilder;
 use Exception;
 use PDO;
 use PDOException;

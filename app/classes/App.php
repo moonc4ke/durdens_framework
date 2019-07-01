@@ -2,13 +2,13 @@
 
 namespace App;
 
-use Core\database\Connection;
-use Core\database\Schema;
+use Core\Database\Connection;
+use Core\Database\Schema;
 use Core\Page\Router;
 use Core\User\Repository;
 use Core\User\Session;
 
-class App extends abstracts\App
+class App extends Abstracts\App
 {
 
     /**

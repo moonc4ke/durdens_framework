@@ -2,9 +2,9 @@
 
 namespace Core\User;
 
-use Core\database\Connection;
+use Core\Database\Connection;
 
-class Model extends \Core\database\Model
+class Model extends \Core\Database\Model
 {
 
     public function __construct(Connection $conn)

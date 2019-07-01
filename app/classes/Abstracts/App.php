@@ -1,9 +1,9 @@
 <?php
 
-namespace App\abstracts;
+namespace App\Abstracts;
 
-use Core\database\Connection;
-use Core\database\Schema;
+use Core\Database\Connection;
+use Core\Database\Schema;
 use Core\User\Repository;
 use Core\User\Session;
 

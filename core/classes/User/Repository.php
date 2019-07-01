@@ -2,7 +2,7 @@
 
 namespace Core\User;
 
-use Core\database\Connection;
+use Core\Database\Connection;
 
 class Repository extends abstracts\Repository
 {
